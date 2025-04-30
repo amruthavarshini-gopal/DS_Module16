@@ -27,7 +27,7 @@ Program to insert the elements in an AVL Tree
 Developed by: HARITHA RAMESH
 RegisterNumber:  212223100011
 */
-node * insert(node *T,int x) 
+struct node* insert(node *T,int x) 
 { 
 if(T==NULL) 
 { 
